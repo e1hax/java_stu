@@ -1,1 +1,4 @@
 BubbleSort/out/*
+BubbleSort/.idea/*
+[chapter]*/out/*
+[chapter]*/.idea/*
