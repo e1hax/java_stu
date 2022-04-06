@@ -5,7 +5,7 @@ public class NullPointerException {
         try {
             String name = null;
             System.out.println(name.length());
-        } catch (java.lang.NullPointerException e  ) {
+        } catch (Exception e ) {
             e.printStackTrace();
         }
         System.out.println("程序继续运行。。。");
