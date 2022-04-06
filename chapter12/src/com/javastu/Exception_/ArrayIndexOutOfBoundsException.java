@@ -7,7 +7,7 @@ public class ArrayIndexOutOfBoundsException {
             for (int i = 0; i <= arr.length ; i++) {
                 System.out.println(arr[i]);
             }
-        } catch (java.lang.ArrayIndexOutOfBoundsException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
 
