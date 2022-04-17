@@ -17,6 +17,8 @@ public class WrapperVSString {
         Integer i3 = new Integer(str4);   //通过Integer类的构造器
 
         System.out.println("ok");
+        System.out.println("LL");
+        System.out.println("NEW");
 
 
     }
