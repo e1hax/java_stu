@@ -6,6 +6,8 @@ public class StringBuilderVSStringBufferVSString {
         long stratTime =0L;
         long endTime =0L;
 
+        System.out.println("1".equals(text));
+
         //StringBuffer的执行时间
         StringBuffer buffer = new StringBuffer("");
         stratTime = System.currentTimeMillis();
@@ -24,6 +26,8 @@ public class StringBuilderVSStringBufferVSString {
         }
         endTime =System.currentTimeMillis();
         System.out.println("StringBuilder的执行时间"+(endTime-stratTime));
+
+
 
 
 //        String的执行时间
